@@ -7,7 +7,6 @@ jobs:
       steps:
         - checkout
         - run: echo "Hello world"
-  build:
     two:
       docker:
         - image: circleci/ruby:2.4.1-jessie
